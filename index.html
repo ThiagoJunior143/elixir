@@ -24,7 +24,7 @@
   </div>
   
   <nav class="below-nav">
-        <div class="left">    
+      <div class="left">    
           <div><img src="https://prium.github.io/elixir/v3.0.0/assets/img/logo-dark.png" alt=""></div>   
            
           <ul class="navbar">
@@ -75,8 +75,62 @@
          </ul> 
         </div>
     
-    <div class="right"><div class="btn">Purchase</div></div>
-    </nav>   
+        <div class="right"><div class="btn">Purchase</div><i onclick="showNavbar()" class="fa-solid fa-bars"></i></div>
+  </nav>   
+
+  <nav class="below-nav below-2">
+      <div class="left">    
+          <!-- <div class="left-2"><img src="https://prium.github.io/elixir/v3.0.0/assets/img/logo-dark.png" alt=""></div>    -->
+          <ul class=" navbar-2">
+            <i onclick="hideNavbar()" class="fa-solid fa-xmark"></i>
+            <li class="down"><a href="">Home<span><i class="fa-solid fa-angle-down"></i></span></a>
+            <ul class="drop">
+            <li>Slider Header</li>
+            <li>Slider Classic</li> 
+            <li>Static Header</li>
+            <li>Static classic</li>
+            <li>Youtube Background</li>
+            <li>Youtube Classic</li>
+            <li>Self-hosted Video</li>
+            <li>Self-hosted Classic</li>
+           </ul>
+          </li>
+          <li class="down"><a href="">Pages <span><i class="fa-solid fa-angle-down"></i></span></a>
+            <ul class="drop1">
+            <li>Services</li>
+            <li>About</li> 
+            <li>Alumni</li>
+            <li>Blank Page</li>
+            <li>404 page</li>
+            <li>Login</li>
+            <li>Registration</li>
+          </ul>
+          </li>
+           <li class="down"><a href="">News <span><i class="fa-solid fa-angle-down"></i></span></a>
+            <ul class="drop2">
+            <li>News Room</li>
+            <li>Single News</li> 
+          </ul>
+          </li>
+           <li class="down"><a href="">Elements<span><i class="fa-solid fa-angle-down"></i></span></a>
+            <ul class="drop3">
+            <li>Buttons</li>
+            <li>Colors</li> 
+            <li>Google Map</li>
+            <li>Grid</li>
+            <li>Icons</li>
+            <li>Layout Helpers</li>
+            <li>Modal Video</li>
+            <li>Swiper</li>
+            <li>Typography</li>
+          </ul>
+          </li>
+           <li><a href="">Contact</a></li>
+         
+           <div class="right right-2"><div class="btn">Purchase</div></div>
+          </ul> 
+        </div>
+     </nav>   
 
 <section class="consult ">   
 
@@ -104,13 +158,13 @@
         <p class="special-text">Solution for every business related problems, readily and skillfully.</p>
      </div>
       <div class="role-detail">
-        <div class="role-icon"><span><i style="padding: 33px 35px;" class="fa-solid fa-bell"></i></span></div>
+        <div class="role-icon"><span><i  class="fa-solid fa-bell"></i></span></div>
         <h2>Risk Management</h2>
         <p class="special-text">Calculate every possible risk in your business, take
 control over them.</p>
      </div>
       <div class="role-detail">
-        <div class="role-icon"><span><i style="padding: 33px 37px;" class="fa-solid fa-lightbulb"></i></span></div>
+        <div class="role-icon"><span><i  class="fa-solid fa-lightbulb"></i></span></div>
         <h2>Market Research</h2>
         <p class="special-text">Know the market before taking any step, reduce
 risks before you go.</p>
@@ -119,14 +173,13 @@ risks before you go.</p>
         <div class="role-icon"><span><i class="fa-solid fa-headset"></i></span></div>
         <h2>Quality Services</h2>
         <p class="special-text">Experience unparalleled service, from beginning
-to final construction.</p>
+        to final construction.</p>
      </div>
    </div> 
 
    <div class="play wrapper"> 
        <!-- <img class="play-img" src="Images/video-screenshot-2.jpg" alt=""> -->
        <a href="https://www.youtube.com/watch?v=jlWMTNZNOc0&t=1s"><div class="play-icon"><i class="fa-solid fa-play"></i></div></a>      
-        
     </div>
 
    <div class="about-team">
@@ -147,7 +200,6 @@ to final construction.</p>
 
 </section>
 
-
 <section class="services"> 
  <div class="wrapper">
   <div class="heading">
@@ -157,24 +209,31 @@ to final construction.</p>
 
 <div class="department">
   <div class="depart">
+    <div class="depart-img">
     <img style="border-top-left-radius: 20px;" src="Images/consultancy-1.jpg" alt="">
+    </div>
     <div class="write-up">
       <h2>Business Consulting</h2>
        <p class="special-text">As one of the world’s largest accountancy networks, elixir helps a diverse range of clients with a diverse range of needs.This is especially true of our Advisory Practice, which provides corporate finance and transaction services, business restructuring.</p>
        <p class="learrow">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></p>
     </div>
   </div>
-  <div class="depart">
+  <div class="depart special-depart">
     <div class="write-up">
       <h2>Tax Consulting</h2>
        <p class="special-text">Elixir serves clients across the country and around the world as they navigate an increasingly complex tax landscape. Our tax professionals draw on deep experience and industry-specific knowledge to deliver clients the insights and innovation they need.</p>
        <p class="learrow">Learn More <span><i class="fa-solid fa-arrow-right-long"></i></span></p>
     </div>
-   <img src="Images/Consultancy-2.jpg" alt="">
+    
+    <div class="depart-img">
+      <img src="Images/Consultancy-2.jpg" alt="">
+    </div>  
 
   </div>
   <div class="depart">
+    <div class="depart-img"> 
     <img style="border-bottom-left-radius: 20px;" src="Images/Consultancy-3.jpg" alt="">
+    </div>
     <div class="write-up">
       <h2>Advisory</h2>
        <p class="special-text">To help you understand what this road looks like, we surveyed 1165 digital marketers across Europe and North America to explore current trends and priorities in digital marketing.</p>
@@ -209,8 +268,11 @@ to final construction.</p>
 </div>
 
 <div class="reliable wrapper">
-  <img src="Images/why-choose-us.jpg" alt="">
-  <div class="info">
+  <div class="reliable-sec">
+    <div class="rely-img">   
+    <img src="Images/why-choose-us.jpg" alt="">
+    </div>
+    <div class="info">
     <div class="info-detail">
       <h1><span><i class="fa-solid fa-comment-dots"></i></span>We are Professional</h1>
       <p>We resource, train, speak, mentor and encourage; marketplace leaders, business owners and career professionals to be effective in the workplace.</p>
@@ -224,6 +286,7 @@ to final construction.</p>
       <p>Design clever and compelling marketing strategies, improve product positioning, and drive conversion rates, Elixir is all time available to guide you.</p>
     </div> 
   </div> 
+  </div>
 </div>
 
 <div class="jumbo">
@@ -243,7 +306,8 @@ to final construction.</p>
 </div>
 
 <div class="importance wrapper">
-   <div class="import-detail">
+  <div class="import-sec"> 
+  <div class="import-detail">
       <div class="imp-icon"><span><i class="fa-solid fa-share-nodes"></i></span></div>
       <h1>Creative Support</h1>
       <p>we transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
@@ -273,7 +337,8 @@ to final construction.</p>
       <h1>Creative Support</h1>
       <p>we transform brands, grow businesses, and tell brand and product stories in a most creative way.</p>
     </div>
-</div>
+    </div>
+  </div>
 
 </section>
 
@@ -292,9 +357,7 @@ to final construction.</p>
         <input placeholder="Subject" type="text">
         <button>Submit</button>
        </div>
- 
     </div>
-  
   </form>
 </div>
 
@@ -304,6 +367,7 @@ to final construction.</p>
 </div>
 
 <div class="bio wrapper">
+  <div class="bio-sec">
   <div class="bio-card">
     <img src="Images/portrait-3.jpg" alt="">
     <h2>Reenal Scott</h2>
@@ -340,7 +404,7 @@ to final construction.</p>
     <p>Business Consultant</p>
     <p class="special-text">Ragner, SVP of Engineering, oversees Elixir’s vast engineering organization which drives the core programming.</p>
   </div>
-
+</div>
 </div>
 
 <div class="tour" > 
@@ -405,6 +469,7 @@ to final construction.</p>
 </div>
 
 <div class="news-feed wrapper">
+  <div class="news-sec">
   <div class="news-card">
     <img src="Images/news1.jpg" alt="">
     <h2>Tax impacts of lease mean accounting change</h2>
@@ -426,6 +491,7 @@ to final construction.</p>
     <p class="special-text">Social engineering involves the collection of information from various sources about a target...</p>
     <p class="learn-text">Learn More <span><i class="fa-solid fa-right-long"></i></span></p>
   </div>
+</div>
 </div>
 </section>
 
@@ -462,11 +528,29 @@ to final construction.</p>
 
 <footer>
   <div class="footer wrapper">
+    <div class="foot">
     <img style="cursor: pointer;" src="https://prium.github.io/elixir/v3.0.0/assets/img/logo-light.png" alt="">
+    </div>
+    <div class="foot">
     <p><span><i class="fa-regular fa-copyright"></i></span> Copyright 2021 Elexir Inc</p>
+    </div>
+    <div class="foot">
     <p>Designed by Themeswagon</p>
- </div>
+    </div>
+  </div>
 </footer>
+
+<script>
+  const secNavbar = document.querySelector(".below-2")
+   function showNavbar() {
+    secNavbar.style.display = "flex"
+   }
+   function hideNavbar() {
+    secNavbar.style.display = "none"
+   }
+
+</script>
+
 
 </body>
 </html>
